@@ -5,3 +5,5 @@ FROM itzg/minecraft-server:latest
 ENV EULA=true
 
 EXPOSE 25565
+
+USER 1000
